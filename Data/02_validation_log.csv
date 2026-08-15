@@ -1,0 +1,16 @@
+Issue_ID,Site_ID,Site_Name,Report_Month,Field,Raw_Value,Corrected_Value,Validation_Rule,Resolution,Correction_Basis,Status
+DQ-001,DE-MUC,Munich,2023-02-01,Country,DE,Germany,Country standardization,Standardized country code to site-master value.,Simulated site confirmation / master-data check,Resolved
+DQ-002,DE-DRS,Dresden,2023-03-01,Country,GERMANY,Germany,Country standardization,Standardized uppercase country name.,Simulated site confirmation / master-data check,Resolved
+DQ-003,PT-POR,Porto,2024-07-01,Country,Portugual,Portugal,Country standardization,Corrected spelling against site master.,Simulated site confirmation / master-data check,Resolved
+DQ-004,MY-KUL,Kulim,2023-07-01,Electricity_MWh,5033700.0,5033.7,Unit consistency,Converted the submitted kWh value to MWh.,Simulated site confirmation / master-data check,Resolved
+DQ-005,SG-SIN,Singapore,2024-05-01,Scope1_tCO2e,,236.0,Missing required value,Filled from simulated site resubmission.,Simulated site confirmation / master-data check,Resolved
+DQ-006,PT-POR,Porto,2025-06-01,Water_Withdrawal_m3,,30964.0,Missing required value,Filled from simulated site resubmission.,Simulated site confirmation / master-data check,Resolved
+DQ-007,DE-DRS,Dresden,2025-05-01,Scope2_tCO2e,,249.4,Missing required value,Filled from simulated site resubmission.,Simulated site confirmation / master-data check,Resolved
+DQ-008,SG-SIN,Singapore,2025-03-01,Total_Waste_t,-43.0,145.9,Negative value,Corrected from simulated site resubmission.,Simulated site confirmation / master-data check,Resolved
+DQ-009,DE-DRS,Dresden,2024-09-01,Renewable_Electricity_MWh,3549.1,2162.1,Logical relationship,Renewable electricity cannot exceed total electricity.,Simulated site confirmation / master-data check,Resolved
+DQ-010,MY-KUL,Kulim,2024-04-01,Recycled_Waste_t,170.4,121.4,Logical relationship,Recycled waste cannot exceed total waste.,Simulated site confirmation / master-data check,Resolved
+DQ-011,AT-VIL,Villach,2023-12-01,Production_Units,0,96990,Production validity,Production must be greater than zero.,Simulated site confirmation / master-data check,Resolved
+DQ-012,DE-MUC,Munich,2024-01-01,Hazardous_Waste_t,-4.0,7.3,Negative value,Corrected from simulated site resubmission.,Simulated site confirmation / master-data check,Resolved
+DQ-013,DE-MUC,Munich,2024-11-01,Submission_ID,SUB-202411-DE-MUC-01 + SUB-202411-DE-MUC-02,SUB-202411-DE-MUC-02,Duplicate submission,Retained latest submission and removed earlier duplicate.,Latest-submission rule,Resolved
+DQ-014,AT-VIL,Villach,2025-02-01,Submission_ID,SUB-202502-AT-VIL-01 + SUB-202502-AT-VIL-02,SUB-202502-AT-VIL-02,Duplicate submission,Retained latest submission and removed earlier duplicate.,Latest-submission rule,Resolved
+DQ-015,SG-SIN,Singapore,2023-08-01,Submission_ID,SUB-202308-SG-SIN-01 + SUB-202308-SG-SIN-02,SUB-202308-SG-SIN-02,Duplicate submission,Retained latest submission and removed earlier duplicate.,Latest-submission rule,Resolved

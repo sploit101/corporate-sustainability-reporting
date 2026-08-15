@@ -1,0 +1,13 @@
+KPI,Year,Target_Value,Unit,Direction
+Total GHG Emissions,2023,57949.1,tCO2e,Lower is better
+Total GHG Emissions,2024,54437.0,tCO2e,Lower is better
+Total GHG Emissions,2025,46184.9,tCO2e,Lower is better
+Renewable Electricity Share,2023,60.0,%,Higher is better
+Renewable Electricity Share,2024,66.0,%,Higher is better
+Renewable Electricity Share,2025,72.0,%,Higher is better
+Recycling Rate,2023,77.0,%,Higher is better
+Recycling Rate,2024,81.0,%,Higher is better
+Recycling Rate,2025,85.0,%,Higher is better
+Water Intensity,2023,360.0,"m3 per 1,000 units",Lower is better
+Water Intensity,2024,350.0,"m3 per 1,000 units",Lower is better
+Water Intensity,2025,340.0,"m3 per 1,000 units",Lower is better
